@@ -1,7 +1,9 @@
-var num1 = 5;
-var num2 = 5;
-console.log("Вычитание: " + (num1 + num2));
-console.log("Math " + Math.PI);
-console.log("Math " + Math.E);
-console.log("Math " + Math.min(13, 3, 5, 1, 0, -12, 55));
-console.log("Math " + Math.max(13, 3, 5, 1, 0, -12, 55));
+var num = 5;
+var booleand = true
+if (num >= 5 || booleand == true) {
+    console.log("Верно")
+} else if (num < 5) {
+    console.log("Почти верно")
+} else {
+    console.log("не верно")
+}
